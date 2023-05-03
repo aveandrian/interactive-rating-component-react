@@ -36,7 +36,7 @@ function App() {
   {isSubmitted 
     ? (
       <main className='submitted'>
-        <img src="../images/illustration-thank-you.svg" alt="Thank you" style={{width: "50%"}}/>
+        <img src="/illustration-thank-you.svg" alt="Thank you" style={{width: "50%"}}/>
         <div className='your-choice'>You selected {selectedChoice} out of 5</div>
         <div className='text-container'>
           <h1>Thank you!</h1>
@@ -47,7 +47,7 @@ function App() {
     : (
       <main>
         <div className='start-icon-container'>
-          <img src="../images/icon-star.svg" alt="Star icon" />
+          <img src="/icon-star.svg" alt="Star icon" />
         </div>
         <div className='text-container'>
           <h1>How did we do?</h1>
