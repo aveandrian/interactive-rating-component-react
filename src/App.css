@@ -1,0 +1,95 @@
+* {
+  font-family: 'Overpass', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black
+}
+
+main {
+  max-width: 335px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(216, 12%, 8%);
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.text-container > p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
+
+.rating-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating-circle, .start-icon-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-circle:hover {
+  background-color: hsl(217, 12%, 63%);
+  cursor: pointer;
+}
+
+.selected {
+  background-color: hsl(25, 97%, 53%)
+}
+
+.btn {
+  margin-top: 30px;
+  width: 100%;
+  height: 45px;
+  background-color: hsl(25, 97%, 53%);
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  border-radius: 30px;
+  letter-spacing: 0.2em;
+}
+
+.btn:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.your-choice {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 200px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.submitted {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap:10px;
+  padding: 30px;
+}
+
+.attribution, .attribution > a {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
